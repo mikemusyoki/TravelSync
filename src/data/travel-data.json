@@ -1225,7 +1225,7 @@
     {
       "busId": "bus-8",
       "seatNumber": "B3",
-      "status": "available"
+      "status": "booked"
     },
     {
       "busId": "bus-8",
@@ -5479,6 +5479,35 @@
     }
   ],
   "bookings": [
+    {
+      "id": "booking-d5711ec8-89cf-43f5-9ee9-ffcb30aca007",
+      "reference": "TS-MPL2K2XQ-562",
+      "busId": "bus-8",
+      "seatNumbers": [
+        "B3"
+      ],
+      "passenger": {
+        "firstName": "Michael",
+        "lastName": "Masai",
+        "email": "mmichael200317@gmail.com",
+        "phone": "+254740129267",
+        "idType": "national_id",
+        "idNumber": "40507137"
+      },
+      "route": {
+        "from": "Nairobi",
+        "to": "Kisii",
+        "departure": "06:00 PM",
+        "arrival": "11:30 PM",
+        "duration": "5h 30m"
+      },
+      "total": 2050,
+      "pricePerSeat": 1700,
+      "taxesFees": 350,
+      "busType": "premium",
+      "status": "confirmed",
+      "createdAt": "2026-05-25T10:34:14.366Z"
+    },
     {
       "id": "booking-5420dfa2-d126-4088-aef3-f57944c4c516",
       "reference": "TS-MNOXIMG5-330",

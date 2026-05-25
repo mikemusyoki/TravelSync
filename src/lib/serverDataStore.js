@@ -3,7 +3,7 @@ import path from "node:path";
 import crypto from "node:crypto";
 import { buildSeatsForBuses, initialData } from "@/constants/initialData";
 
-const DATA_DIR = path.join(process.cwd(), "src", "data");
+const DATA_DIR = process.env.VERCEL ? "/tmp" : path.join(process.cwd(), "src", "data");
 const DATA_FILE = path.join(DATA_DIR, "travel-data.json");
 
 function clone(value) {
